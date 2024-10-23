@@ -1,0 +1,26 @@
+.main-header {
+    position: fixed;
+    height: 4rem;
+    width: calc(100% - 323px);
+    top: 0;
+    left: 323px;
+    pad: 0 1rem;
+    z-index: 5;
+}
+
+main {
+    margin-top: 5rem;
+}
+
+.logo {
+    height: 6em;
+    padding: 1.5em;
+    will-change: filter;
+    transition: filter 300ms;
+  }
+  .logo:hover {
+    filter: drop-shadow(0 0 2em #646cffaa);
+  }
+  .logo.react:hover {
+    filter: drop-shadow(0 0 2em #61dafbaa);
+  }

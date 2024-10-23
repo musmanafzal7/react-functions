@@ -1,0 +1,24 @@
+.calendar-card {
+    background-color: #fff;
+    /* border-radius: 2px; */
+    aspect-ratio: 3/2;
+    margin: 1px;
+}
+
+.card-inner {
+    border-radius: 10px;
+    height: 100%;
+    border: 5px solid #fff;
+}
+
+.card-danger {
+    background-color: #F43F5E;
+}
+
+.card-success {
+    background-color: #69BE8B;
+}
+
+.card-default {
+    background-color: #77B5D2;
+}
